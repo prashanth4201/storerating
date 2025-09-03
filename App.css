@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 300px;
+  margin-top: 2rem;
+}
+
+input, select, button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  color: #282c34;
+}
+
+button {
+  cursor: pointer;
+  background-color: #61dafb;
+  color: black;
+  border: none;
+  font-weight: bold;
+}
+
+p {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
